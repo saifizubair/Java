@@ -1,0 +1,33 @@
+package com.company;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+      a obj=new a();
+      obj.show(2);
+    }
+}
+
+class a {
+    public void show(float a){                                                                     //method overloading 
+        System.out.println(a);
+
+    }
+    public void show (int a){
+        System.out.println(a);
+    }
+    public void show(){
+        System.out.println("hello");
+    }
+        }
+
+
+
+
+
+
+
+
+
