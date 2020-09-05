@@ -1,0 +1,30 @@
+package com.company;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+    b obj=new b();
+    obj.show();
+    }
+}
+
+class a {                                                                                 method overriding 
+    public void show(){
+        System.out.println("hello");
+    }
+}
+
+class b extends a{
+    public void show(){
+        System.out.println("hello zubair ");
+    }
+}
+
+
+
+
+
+
+
