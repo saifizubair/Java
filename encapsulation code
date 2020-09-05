@@ -1,0 +1,39 @@
+package com.company;
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        A obj =new A();
+        obj.setEmpid(5);
+        obj.setEmpname("zubair");
+        System.out.println(obj.getEmpid());
+        System.out.println(obj.getEmpname());
+        obj.setEmpname("khan");
+        obj.setEmpid(7);
+        System.out.println(obj.getEmpid());
+        System.out.println(obj.getEmpname());
+
+    }
+}
+class A{
+  private int empid;
+  private String empname;
+
+    public int getEmpid() {
+        return empid;
+    }
+
+    public void setEmpid(int empid) {
+        this.empid = empid;
+    }
+
+    public String getEmpname() {
+        return empname;
+    }
+
+    public void setEmpname(String empname) {
+        this.empname = empname;
+    }
+}
